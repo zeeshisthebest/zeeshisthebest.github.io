@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Muhammad Zeeshan" />
+    <meta property="og:description" content="Discover the innovative world of Muhammad Zeeshan, a professional portfolio website showcasing a vibrant collection of work spanning Web Development and Designing. Explore high-quality projects, personal insights, and creative solutions that highlight Muhammad'
+            s expertise and dedication to pushing artistic and technical
+            boundaries. Perfect for industry professionals,
+            potential employers, and anyone interested in high-level creative
+            collaboration. Visit now to see how I can
+            bring exceptional creativity and precision to your projects." />
+    <meta property="og:url" content="http://www.mzecho.com" />
+    <meta property="og:image" content="http://mzecho.com/img/og_image.png" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="300" />
+    <!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
+    <meta property=" og:type" content="website" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/animate_headline.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/slicknav.min.css" />
+    <title>Muhammad Zeeshan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-[#ebf4fa] text-[16px] font-poppin min-w-[460px] overflow-hidden">
+    <!-- Pre Loader -->
+    <div class="fixed hidden top-0 left-0 w-full h-full bg-white z-[10000] transition-opacity duration-700"
+        id="preloader">
+        <div class="absolute left-0 right-0 mx-auto text-center block size-20 top-[45%]">
+            <div
+                class="border-theme-red-500 border-2 border-b-0 border-l-transparent absolute w-full h-full rounded-full animate-loader-spin-reverse ease-loader-time">
+            </div>
+            <div
+                class="border-theme-red-700 border-2 border-t-0 border-r-transparent animate-loader-spin absolute size-14 top-[calc(50%-1.7rem)] right-[calc(50%-1.7rem)] left-[calc(50%-1.7rem)] rounded-[50%]">
+            </div>
+            <h1 class="text-theme-red-500 absolute text-2xl top-[33%] left-[28%]">
+                MZ
+            </h1>
+        </div>
+    </div>
+    <!-- Sticky Nav Bar -->
+    <div id="navbar" class="z-[1000] fixed -top-24 transition-all duration-700 w-full bg-transparent shadow-lg">
+        <section class="fluid mx-auto box-border flex flex-row justify-between h-[64px] flex-nowrap items-center">
+            <p class="text-theme-red-500 text-[24px] md:text-[32px] font-bold tracking-wider cursor-pointer">
+                <a href="#">Muhammad Z.</a>
+            </p>
+            <button id="hamburger-menu-floating" class="relative h-6 group">
+                <div
+                    class="md:hidden bg-slate-600 h-1 w-5 rounded-full relative before:content-[''] before:-translate-y-2 before:bg-slate-600 before:absolute before:top-0 before:left-0 before:h-1 before:w-5 before:rounded-full after:content-[''] after:translate-y-2 after:bg-slate-600 after:absolute after:top-0 after:left-0 after:h-1 after:w-5 after:rounded-full group-hover:bg-theme-red-500 duration-500 after:duration-500 before:duration-500 group-hover:after:bg-theme-red-500 group-hover:before:bg-theme-red-500">
+                </div>
+            </button>
+            <nav class="md:flex flex-row justify-between self-end items-center flex-nowrap h-full hidden">
+                <ul class="flex flex-row font-poppin text-base font-[600] text-slate-900">
+                    <li class="leading-5 lg:px-[15px] px-[7px] py-[15px]">
+                        <a href="#about" class="hover:text-theme-red-500 transition-colors duration-200">About</a>
+                    </li>
+                    <li class="leading-5 lg:px-[15px] px-[7px] py-[15px]">
+                        <a href="#service" class="hover:text-theme-red-500 transition-colors duration-200">Service</a>
+                    </li>
+                    <li class="leading-5 lg:px-[15px] px-[7px] py-[15px]">
+                        <a href="#portfolio"
+                            class="hover:text-theme-red-500 transition-colors duration-200">Portfolio</a>
+                    </li>
+                    <li class="leading-5 lg:px-[15px] px-[7px] py-[15px]">
+                        <a href="#resume" class="hover:text-theme-red-500 transition-colors duration-200">Resume</a>
+                    </li>
+                    <li class="leading-5 lg:px-[15px] px-[7px] py-[15px]">
+                        <a href="#contact" class="hover:text-theme-red-500 transition-colors duration-200">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </div>
+    <header
+        class="widescreen:min-h-screen tallscreen:h-96 bg-[url('../../img/banner/Art-03.jpg')] bg-center bg-no-repeat bg-cover">
+        <!-- Top -->
+        <section
+            class="fluid mx-auto box-border flex flex-row justify-between h-[90px] flex-nowrap items-center relative content-center">
+            <p class="text-theme-red-500 text-[24px] md:text-[32px] font-bold tracking-wider cursor-pointer">
+                <a href="#">Muhammad Z.</a>
+            </p>
+            <button id="hamburger-menu" class="relative h-6 group">
+                <div
+                    class="md:hidden bg-white h-1 w-5 rounded-full relative before:content-[''] before:-translate-y-2 before:bg-white before:absolute before:top-0 before:left-0 before:h-1 before:w-5 before:rounded-full after:content-[''] after:translate-y-2 after:bg-white after:absolute after:top-0 after:left-0 after:h-1 after:w-5 after:rounded-full group-hover:bg-theme-red-500 duration-500 after:duration-500 before:duration-500 group-hover:after:bg-theme-red-500 group-hover:before:bg-theme-red-500">
+                </div>
+            </button>
+            <nav id="nav"
+                class="md:flex md:flex-row md:justify-between md:self-center md:items-center flex-nowrap fixed md:relative top-16 md:top-0 w-2/3 md:w-auto hidden bg-[#ebf4fa] shadow-lg shadow-[#00000040] md:shadow-none md:bg-transparent overflow-hidden md:h-max z-[2000] h-full">
+                <ul
+                    class="flex md:flex-row flex-col font-poppin text-base font-[600] text-slate-800 md:text-white items-center text-center">
+                    <li
+                        class="leading-5 lg:px-[15px] px-[7px] py-[15px] border-b-[1px] border-b-slate-300 md:border-b-0 w-full md:w-auto">
+                        <a href="#about" class="hover:text-theme-red-500 transition-colors duration-200">About</a>
+                    </li>
+                    <li
+                        class="leading-5 lg:px-[15px] px-[7px] py-[15px] border-b-[1px] border-b-slate-300 md:border-b-0 w-full md:w-auto">
+                        <a href="#service" class="hover:text-theme-red-500 transition-colors duration-200">Service</a>
+                    </li>
+                    <li
+                        class="leading-5 lg:px-[15px] px-[7px] py-[15px] border-b-[1px] border-b-slate-300 md:border-b-0 w-full md:w-auto">
+                        <a href="#portfolio"
+                            class="hover:text-theme-red-500 transition-colors duration-200">Portfolio</a>
+                    </li>
+                    <li
+                        class="leading-5 lg:px-[15px] px-[7px] py-[15px] border-b-[1px] border-b-slate-300 md:border-b-0 w-full md:w-auto">
+                        <a href="#resume" class="hover:text-theme-red-500 transition-colors duration-200">Resume</a>
+                    </li>
+                    <li
+                        class="leading-5 lg:px-[15px] px-[7px] py-[15px] border-b-[1px] border-b-slate-300 md:border-b-0 w-full md:w-auto">
+                        <a href="#contact" class="hover:text-theme-red-500 transition-colors duration-200">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <!-- header  section-->
+        <section class="fluid widescreen:mt-[30vh] tallscreen:mt-7 landscapeMobile:mt-3 mx-auto box-border !px-10">
+            <h2
+                class="uppercase widescreen:text-2xl tallscreen:text-xl landscapeMobile:text-base mb-2 mt-5 text-theme-red-500 font-[600]">
+                hello...
+            </h2>
+            <section
+                class="text-white tallscreen:text-2xl widescreen:text-[30px] lg:text-4xl font-semibold tracking-wide capitalize">
+                <h1 class="cd-headline clip">
+                    <span>I am </span>
+                    <span class="cd-words-wrapper tallscreen:text-title">
+                        <b class="is-visible font-semibold">Muhammad
+                            Zeeshan</b>
+                        <b class="font-semibold">Web Developer</b>
+                    </span>
+                </h1>
+            </section>
+            <!-- </h1> -->
+            <p
+                class="text-white md:w-2/4 w-3/4 tallscreen:text-xs text-sm md:text-base xl:text-lg mt-3 widescreen:leading-6 tallscreen:leading-4">
+                I'm a Web Developer with extensive experience for over
+                years. My expertise is to create and design websites, web development and many more...
+            </p>
+            <div class="mt-7 flex flex-row gap-3 justify-start landscapeMobile:pb-5">
+                <a href="#portfolio"
+                    class="transition-colors duration-300 bg-theme-red-500 widescreen:px-8 tallscreen:px-4 rounded-full text-white widescreen:text-base tallscreen:text-sm min-h-10 max-h-10 !leading-10 hover:bg-theme-red-700">View
+                    Work</a>
+                <a href="#contact"
+                    class="transition-colors duration-300 bg-theme-red-500 widescreen:px-8 tallscreen:px-4 rounded-full text-white widescreen:text-base tallscreen:text-sm min-h-10 max-h-10 !leading-10 hover:bg-theme-red-700">Let's
+                    Work</a>
+            </div>
+        </section>
+    </header>
+    <!-- about -->
+    <section id="about" class="my-10 md:my-12 inline-block w-full box-border scroll-m-20">
+        <div class="flex md:flex-row flex-col justify-center fluid mx-auto gap-9 overflow-hidden">
+            <div class="flex-[2] wow fadeInLeft">
+                <img src="img/about3.jpg" alt="about-image"
+                    class="md:ml-auto mx-auto shadow-lg border-[12px] border-slate-200 shadow-zinc-400 max-w-[263px] max-h-[350] md:max-w-[450px] md:max-h-[485px] w-auto h-auto object-contain md:my-10 my-0" />
+            </div>
+            <div class="flex-[3] md:my-10 my-0 wow fadeInRight self-center">
+                <!-- Heading -->
+                <p class="text-3xl text-black capitalize font-semibold text-center md:text-left select-none">
+                    I am a&nbsp;<span class="text-theme-red-500">Web
+                        Designer</span>
+                </p>
+                <!-- Paragraph -->
+                <p class="my-4 text-gray-500 text-justify select-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="red" class="size-6 inline mr-3">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+                    </svg>
+                    I specialize in web design, UI/UX design, and back-end
+                    development.
+                    My aim is to create layouts that are not only visually
+                    appealing but
+                    also highly functional and easy to navigate. I
+                    collaborate closely
+                    with clients at every stage, ensuring their content is
+                    optimized for
+                    maximum engagement and conversion. My expertise covers a
+                    wide range
+                    of technologies, enabling me to deliver cutting-edge,
+                    user-friendly
+                    websites and applications.
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="red" class="size-6 inline ml-3">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+                    </svg>
+                </p>
+                <!-- Name -->
+                <div class="my-4 font-light">
+                    <span class="lg:w-1/5 w-2/5 text-black inline-block font-[500] select-none">
+                        Name</span>: Muhammad Zeeshan
+                </div>
+                <!-- Location -->
+                <div class="my-4 font-light select-none">
+                    <span class="lg:w-1/5 w-2/5 text-black inline-block font-[500]">
+                        Located</span>:
+                    <span class="relative group cursor-pointer">
+                        Italy
+                        <span class="tooltip-text">Torino, Italy</span>
+                    </span>
+                    &amp;
+                    <span class="relative group cursor-pointer">
+                        Pakistan
+                        <span class="tooltip-text">karachi, Pakistan</span>
+                    </span>
+                </div>
+                <!-- Contacts -->
+                <div class="my-4 font-light">
+                    <span class="lg:w-1/5 w-2/5 text-black inline-block font-[500] select-none align-top">
+                        Contact</span><span class="align-top m-0 p-0 border-0 border-collapse box-content">:</span>
+                    <div class="lg:w-1/5 w-2/5 inline-block">
+                        <a href="tel:+393493425222" class="hover:text-theme-red-600">+39 349 342
+                            5222</a>
+                        <br />
+
+                        <a href="tel:+923362322679" class="hover:text-theme-red-600 text-right">+92
+                            336 232 2666</a>
+                    </div>
+                </div>
+                <!-- Whatsapp -->
+                <div class="my-4 font-light">
+                    <span class="lg:w-1/5 w-2/5 text-black inline-block font-[500] select-none">
+                        WhatsApp </span>:
+                    <a href="https://api.whatsapp.com/send/?phone=923362322679&text&type=phone_number&app_absent=1"
+                        class="hover:text-theme-red-600" target="_blank">+92 336 232 2666</a>
+                </div>
+                <!-- Mail -->
+                <div class="my-4 font-light">
+                    <span class="lg:w-1/5 w-2/5 text-black inline-block font-[500] select-none">
+                        Email </span>:
+                    <a href="mailto:contact@mzecho.com" class="hover:text-theme-red-600">contact@mzecho.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services -->
+    <section id="service" class="mx-auto mt-0 md:mt-10 w-full scroll-m-24">
+        <h1 class="uppercase text-black text-5xl font-bold text-center wow flipInX" data-wow-delay="0.4s">
+            My <span class="text-theme-red-500">Services</span>
+        </h1>
+        <!-- Underline -->
+        <div class="border-b-2 mx-auto border-theme-red-500 w-20 h-4 block"></div>
+        <!-- grid -->
+        <div
+            class="lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-3 grid-cols-2 gap-6 grid mt-12 lg:mt-16 mb-16 place-items-center max-w-[370px] sm:max-w-[640px] md:max-w-[720px] box-border lg:max-w-[1200px] mx-auto px-0 lg:px-8">
+            <div class="bg-white text-center py-7 md:py-12 px-8 shadow-lg shadow-gray-200 rounded border-b-4 border-theme-red-500 transform hover:-translate-y-1 duration-300 wow fadeInDown w-full h-full cursor-default"
+                data-wow-delay="0.3s">
+                <!-- fab fa-html5    -->
+                <i
+                    class="fab fa-html5 bg-theme-red-500 text-white size-12 !leading-[48px] text-2xl rounded-[50%] text-center inline-block"></i>
+                <h1 class="text-black text-xl font-semibold my-4">Website</h1>
+                <p class="font-light text-base text-justify hidden md:block">
+                    In today's digital world, a website is often the first point of contact between your
+                    business and potential customers, making it essential for credibility. It acts as a 24/7 platform
+                    for showcasing your products, services, and values
+                </p>
+            </div>
+            <div class="bg-white text-center py-7 md:py-12 px-8 shadow-lg shadow-gray-200 rounded border-b-4 border-theme-red-500 transform hover:-translate-y-1 duration-300 wow fadeInDown w-full h-full cursor-default"
+                data-wow-delay="0.2s">
+                <!-- fab fa-css3 -->
+                <i
+                    class="fas fa-paint-brush bg-theme-red-500 text-white size-12 !leading-[48px] text-2xl rounded-[50%] text-center inline-block"></i>
+                <h1 class="text-black text-xl font-semibold my-4">Web
+                    Designing</h1>
+                <p class="font-light text-base text-justify hidden md:block">
+                    A well-designed, user-friendly website captures attention. By blending layout, colors, fonts, and
+                    graphics, website design combines creativity with technical skill to build a professional online
+                    presence and foster
+                    trust.
+                </p>
+            </div>
+            <div class="bg-white text-center py-7 md:py-12 px-8 shadow-lg shadow-gray-200 rounded border-b-4 border-theme-red-500 transform hover:-translate-y-1 duration-300 wow fadeInDown w-full h-full cursor-default"
+                data-wow-delay="0.1s">
+                <i
+                    class="fa fa-screwdriver-wrench bg-theme-red-500 text-white size-12 !leading-[48px] text-2xl rounded-[50%] text-center inline-block"></i>
+                <h1 class="text-black text-xl font-semibold my-4">Customize</h1>
+                <p class="font-light text-base text-justify hidden md:block">
+                    We offer solutions based on your business goals and requirements, ensuring your
+                    website stands out from the competition. Our approach focuses on your unique needs,
+                    industry trends, and target audience for better engagements.
+                </p>
+            </div>
+            <div class="bg-white text-center py-7 md:py-12 px-8 shadow-lg shadow-gray-200 rounded border-b-4 border-theme-red-500 transform hover:-translate-y-1 duration-300 wow fadeInUp w-full h-full cursor-default"
+                data-wow-delay="0.1s">
+                <i
+                    class="fa-solid fa-computer bg-theme-red-500 text-white size-12 !leading-[48px] text-2xl rounded-[50%] text-center inline-block"></i>
+
+                <h1 class="text-black text-xl font-semibold my-4">UI/UX
+                    Design</h1>
+                <p class="font-light text-base text-justify hidden md:block">
+                    We conduct strategic UX testing to enhance user experience on your website or app, ensuring our UX
+                    strategy identifies and prioritizes what matters most to your users.
+                </p>
+            </div>
+            <div class="bg-white text-center py-7 md:py-12 px-8 shadow-lg shadow-gray-200 rounded border-b-4 border-theme-red-500 transform hover:-translate-y-1 duration-300 wow fadeInUp w-full h-full cursor-default"
+                data-wow-delay="0.2s">
+                <i
+                    class="fa fa-code bg-theme-red-500 text-white size-12 !leading-[48px] text-2xl rounded-[50%] text-center inline-block"></i>
+                <h1 class="text-black text-xl font-semibold my-4">Web
+                    Development</h1>
+                <p class="font-light text-base text-justify hidden md:block">
+                    We provide software development services in: LAMP, MERN,
+                    JavaScript/
+                    jQuery, NodeJs, Flutter, ReactJs and other modern technologies.
+                </p>
+            </div>
+            <div class="bg-white text-center py-7 md:py-12 px-8 shadow-lg shadow-gray-200 rounded border-b-4 border-theme-red-500 transform hover:-translate-y-1 duration-300 wow fadeInUp w-full h-full cursor-default"
+                data-wow-delay="0.3s">
+                <i
+                    class="fas fa-headset bg-theme-red-500 text-white size-12 !leading-[48px] text-2xl rounded-[50%] text-center inline-block"></i>
+                <h1 class="text-black text-xl font-semibold my-4">
+                    Technical Support
+                </h1>
+                <p class="font-light text-base text-justify hidden md:block">
+                    We offer long term technical support, ensuring that your
+                    website or
+                    web application runs smoothly and any issues are
+                    promptly addressed.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Get In Touch -->
+    <section
+        class="bg-[url(../../img/cta-action.jpg)] relative bg-cover bg-fixed before:content-[''] before:bottom-0 before:left-0 before:right-0 before:bg-[rgb(254,002,002,0.25)] before:absolute before:w-full before:h-full">
+        <div class="py-24 text-center z-10 relative">
+            <h2 class="capitalize text-white font-semibold text-4xl wow fadeInDown">
+                I am available for Freelancer!
+            </h2>
+            <a href="#contact"
+                class="capitalize bg-theme-red-500 px-10 py-2 rounded-3xl text-white text-lg mt-10 inline-block transition-colors duration-300 hover:bg-theme-red-600 wow zoomIn"
+                data-wow-delay="0.3s">get in touch</a>
+        </div>
+    </section>
+    <!-- My Portfolio -->
+    <section id="portfolio" class="scroll-m-24 box-border mx-auto my-20">
+        <h1 class="uppercase text-black text-5xl font-bold text-center wow flipInX">
+            My <span class="text-theme-red-500">Portfolio</span>
+        </h1>
+        <!-- Underline -->
+        <div class="border-b-2 mx-auto border-theme-red-500 w-20 h-4 block"></div>
+        <!-- Image Gallery -->
+        <div
+            class="lg:grid-cols-3 sm:grid-cols-3 grid-cols-2 gap-6 grid mt-12 lg:mt-16 mb-16 place-items-center max-w-[370px] sm:max-w-[640px] md:max-w-[720px] box-border lg:max-w-[1200px] mx-auto px-0 lg:px-8">
+            <div class="bg-white h-full flex items-center justify-center object-cover">
+                <img src="img/portfolio/image_original.jpg" alt="portfolio_image"
+                    class="hover:shadow-lg hover:shadow-gray-400 transition-shadow duration-300 object-cover shadow-md shadow-gray-400 h-full w-full" />
+            </div>
+            <div class="bg-white h-full flex items-center justify-center object-cover">
+                <img src="img/portfolio/image_original1.jpg" alt="portfolio_image"
+                    class="hover:shadow-lg hover:shadow-gray-400 transition-shadow duration-300 object-cover shadow-md shadow-gray-400 h-full w-full" />
+            </div>
+            <div class="bg-white h-full flex items-center justify-center object-cover">
+                <img src="img/portfolio/image_original.jpg" alt="portfolio_image"
+                    class="hover:shadow-lg hover:shadow-gray-400 transition-shadow duration-300 object-cover shadow-md shadow-gray-400 h-full w-full" />
+            </div>
+            <div class="bg-white h-full flex items-center justify-center object-cover">
+                <img src="img/portfolio/3.png" alt="portfolio_image"
+                    class="hover:shadow-lg hover:shadow-gray-400 transition-shadow duration-300 object-cover shadow-md shadow-gray-400 h-full w-full" />
+            </div>
+            <div class="bg-white h-full flex items-center justify-center object-cover">
+                <img src="img/portfolio/1.jpg" alt="portfolio_image"
+                    class="hover:shadow-lg hover:shadow-gray-400 transition-shadow duration-300 object-cover shadow-md shadow-gray-400 h-full w-full" />
+            </div>
+            <div class="bg-white h-full flex items-center justify-center object-cover">
+                <img src="img/portfolio/1.jpg" alt="portfolio_image"
+                    class="hover:shadow-lg hover:shadow-gray-400 transition-shadow duration-300 object-cover shadow-md shadow-gray-400 h-full w-full"
+                    </div>
+            </div>
+    </section>
+    <!-- Satisfied -->
+    <section
+        class="bg-[url(../../img/counter.jpg)] relative bg-cover bg-fixed before:content-[''] before:bottom-0 before:left-0 before:right-0 before:bg-[rgb(254,002,002,0.25)] before:absolute before:w-full before:h-full h-">
+        <div
+            class="fluid z-10 min-h-80 relative grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-evenly mx-auto text-white items-center content-center flex-wrap wow fadeInUp">
+            <div class="text-center">
+                <h1 class="text-4xl font-semibold">
+                    <span class="text-theme-red-500">80</span>+
+                </h1>
+                <span class="text-xl font-semibold">Projects</span>
+            </div>
+            <div class="my-12 text-center">
+                <h1 class="text-4xl font-semibold">
+                    <span class="text-theme-red-500">200</span>K
+                </h1>
+                <span class="text-xl font-semibold">Customers </span>
+            </div>
+            <div class="my-12 text-center">
+                <h1 class="text-4xl font-semibold">
+                    <span class="text-theme-red-500">600</span>K
+                </h1>
+                <span class="text-xl font-semibold">Happy Clients</span>
+            </div>
+            <div class="my-12 text-center">
+                <h1 class="text-4xl font-semibold">
+                    <span class="text-theme-red-500">40</span>+
+                </h1>
+                <span class="text-xl font-semibold">Awards</span>
+            </div>
+        </div>
+    </section>
+    <!-- Resume -->
+    <section id="resume"
+        class="scroll-m-24 box-border mx-auto py-16 align-middle flex flex-col flex-nowrap items-center justify-center bg-slate-50 h-[30vh]">
+        <h1 class="uppercase text-black text-5xl font-bold text-center wow flipInX">
+            My <span class="text-theme-red-500">Resume</span>
+        </h1>
+        <!-- Underline -->
+        <div class="border-b-2 mx-auto border-theme-red-500 w-20 h-4 block"></div>
+        <!-- Resume Iframes -->
+        <div class="fluid w-full justify-center flex flex-col mt-10 items-center relative">
+            <button id="view-resume-btn"
+                class="transition-colors duration-300 bg-theme-red-500 px-4 rounded-full text-white min-h-10 font-semibold max-h-10 !leading-10 hover:bg-theme-red-700 cursor-pointer text-sm">
+                View My Resume
+            </button>
+            <!-- Container  -->
+            <div id="resume-iframe"
+                class="fixed top-0 right-0 left-0 bottom-0 z-[1500] hidden justify-center items-center bg-black bg-opacity-80">
+                <!-- Iframe holder -->
+                <div class="w-11/12 md:w-3/4 h-[80vh] border-2 border-white relative">
+                    <!-- Button -->
+                    <div class="flex flex-col justify-start items-center absolute top-6 left-6 w-10 gap-3">
+                        <button id="close-resume-btn"
+                            class="rounded-md bg-theme-red-500 py-2 w-full text-lg font-bold text-white shadow-md shadow-black hover:bg-theme-red-700">
+                            X
+                        </button>
+                        <button id="fit-resume-btn"
+                            class="rounded-md bg-slate-400 py-2 w-full text-lg font-bold text-white hover:bg-slate-300 shadow-md shadow-black">
+                            <i class="fa-solid fa-arrows-left-right"></i>
+                        </button>
+                        <button id="zoomout-resume-btn"
+                            class="rounded-md bg-slate-400 py-2 w-full text-lg font-bold text-white hover:bg-slate-300 shadow-md shadow-black">
+                            <i class="fa-solid fa-magnifying-glass-minus"></i>
+                        </button>
+                        <button id="zoomin-resume-btn"
+                            class="rounded-md bg-slate-400 py-2 w-full text-lg font-bold text-white hover:bg-slate-300 shadow-md shadow-black">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </button>
+                    </div>
+                    <iframe src="./cv_it.html" class="w-full h-full"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Tech Stack -->
+    <section class="py-16 overflow-hidden">
+
+        <div class="marquee">
+            <span>
+                <img src="img/icons/android.svg" alt="">
+                <img src="img/icons/apple.svg" alt="">
+                <img src="img/icons/bootstrap.svg" alt="">
+                <img src="img/icons/css.svg" alt="">
+                <img src="img/icons/express.svg" alt="">
+                <img src="img/icons/flutter.svg" alt="">
+                <img src="img/icons/html.svg" alt="">
+                <img src="img/icons/javascript.svg" alt="">
+                <img src="img/icons/jquery.svg" alt="">
+                <img src="img/icons/laravel.svg" alt="">
+                <img src="img/icons/nextjs.svg" alt="">
+                <img src="img/icons/nodejs.svg" alt="">
+                <img src="img/icons/php.svg" alt="">
+                <img src="img/icons/python.svg" alt="">
+                <img src="img/icons/react.svg" alt="">
+                <img src="img/icons/sass-original.svg" alt="">
+                <img src="img/icons/tailwind.svg" alt="">
+                <img src="img/icons/typescript.svg" alt="">
+            </span>
+            <span>
+                <img src="img/icons/android.svg" alt="">
+                <img src="img/icons/apple.svg" alt="">
+                <img src="img/icons/bootstrap.svg" alt="">
+                <img src="img/icons/css.svg" alt="">
+                <img src="img/icons/express.svg" alt="">
+                <img src="img/icons/flutter.svg" alt="">
+                <img src="img/icons/html.svg" alt="">
+                <img src="img/icons/javascript.svg" alt="">
+                <img src="img/icons/jquery.svg" alt="">
+                <img src="img/icons/laravel.svg" alt="">
+                <img src="img/icons/nextjs.svg" alt="">
+                <img src="img/icons/nodejs.svg" alt="">
+                <img src="img/icons/php.svg" alt="">
+                <img src="img/icons/python.svg" alt="">
+                <img src="img/icons/react.svg" alt="">
+                <img src="img/icons/sass-original.svg" alt="">
+                <img src="img/icons/tailwind.svg" alt="">
+                <img src="img/icons/typescript.svg" alt="">
+            </span>
+        </div>
+
+    </section>
+    <!-- Contact Us -->
+    <section id="contact"
+        class="scroll-m-20 box-border mx-auto pt-20 min-h-[75vh] align-middle flex flex-col flex-nowrap items-center justify-center bg-white">
+        <h1 class="uppercase text-black text-5xl font-bold text-center wow flipInX">
+            Contact <span class="text-theme-red-500">Us</span>
+        </h1>
+        <!-- Underline -->
+        <div class="border-b-2 mx-auto border-theme-red-500 w-20 h-4 block"></div>
+        <div class="w-full h-[75vh]">
+            <iframe class="airtable-embed" src="https://airtable.com/embed/appWNMV2I3CUr0IDy/pagtysxdikp7zhFOX/form"
+                frameborder="0" width="100%" height="100%" scrolling="no" style="
+            background: transparent;
+            border: none;
+            overflow: hidden;
+          "></iframe>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-[#11141B] text-center py-5 text-white text-base">
+        CopyRight © 2024
+        <span class="text-theme-red-500">ZEESHAN</span>
+        | All Rights Reserved
+    </footer>
+
+    <script src="assets/js/animated-headline.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/slick-nav.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
